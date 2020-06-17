@@ -1,0 +1,5 @@
+file(GLOB sources "*.cpp" "*.h")
+PROTOBUF_GENERATE_CPP(PROTO_SRCS PROTO_HDRS kademlia.proto)
+add_library(kademlia ${sources} ${PROTO_SRCS} ${PROTO_HDRS})
+target_link_libraries(kademlia PUBLIC net tools protobuf pthread)
+target_include_directories(kademlia SYSTEM PRIVATE ${CRYPTOPP_INCLUDE_DIR})

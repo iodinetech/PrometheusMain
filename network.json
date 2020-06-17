@@ -1,0 +1,15 @@
+{
+    "nodes":
+    [
+        {
+            "id":"784cbe592258a3fb640e3aec4f9ba6f67e5a81b34b432288a8ff6c178fbedfe0",
+            "ip":"127.0.0.1",
+            "port":"1966"
+        },
+        {
+            "id":"784cbe592258a3fb640e3aec4f9ba6f67e5a81b34b432288a8ff6c178fbedce0",
+            "ip":"127.0.0.1",
+            "port":"3153"
+        }
+    ]
+}

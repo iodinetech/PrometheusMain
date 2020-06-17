@@ -1,0 +1,56 @@
+/* This file is part of Prometheus.
+*/
+
+syntax = "proto3";
+
+message FileObject{
+    uint32 FilenameLength = 1;
+    string Filename = 2;
+    bytes Content = 3;
+    uint32 crc = 4;
+}
+
+message PingPacket {
+    uint32 Random = 1;
+    bytes NodeID = 2;
+}
+
+message PingReplyPacket {
+    uint32 Random = 1;
+    bytes NodeID = 2;
+}
+
+message StorePacket {
+    string Key = 1;
+    bytes Value = 2;
+    uint32 Random = 3;
+}
+
+message FindNodePacket {
+    bytes NodeID = 1;
+    uint32 Random = 2;
+}
+
+message NodeInfo{
+    string ip = 1;
+    int32 port = 2;
+    string NodeID = 3;
+    uint32 Random = 4;
+}
+
+message FindNodeReplyPacket {
+    NodeInfo Target = 1;
+    repeated NodeInfo NodeList = 2;
+    uint32 Random = 3;
+}
+
+message FindValuePacket {
+    string Key = 1;
+    uint32 Random = 2;
+}
+
+message FindValueReplyPacket {
+    string Key = 1;
+    bytes Value = 2;
+    uint32 Random = 3;
+}
