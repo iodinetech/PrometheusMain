@@ -1,7 +1,7 @@
 # PrometheusMain
 西安电子科技大学 开源项目 “ProjectPrometheus（普罗米修斯计划）”主程序
 
-<a href="https://github.com/iodinetech/PrometheusMain/blob/master/introduction.pdf"></a>
+<a href="https://github.com/iodinetech/PrometheusMain/blob/master/introduction.pdf">简介 PPT</a>
 
 
 | Operating system & Architecture | Status     |
