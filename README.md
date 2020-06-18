@@ -17,16 +17,21 @@ config.json 设置本节点的属性，network.json设置网络中其他节点�
 
 # 编译指引：
 开启终端，执行下述命令，进行环境搭建和项目编译。  
-1.apt-get install libspdlog-dev  
-2.apt-get install libcrypto++-dev  
-3.apt-get install libboost-all-dev  
-4.apt-get install libprotobuf-dev  
-5.apt-get install protobuf-compiler  
-6.apt-get install cmake  
-6.在代码树的根目录: mkdir build  
-7.cd build  
-8.cmake ..  
-9.make  
+
+```shell
+sudo apt-get install libspdlog-dev  
+sudo apt-get install libcrypto++-dev  
+sudo apt-get install libboost-all-dev  
+sudo apt-get install libprotobuf-dev  
+sudo apt-get install protobuf-compiler  
+sudo apt-get install cmake  
+mkdir build  # 从这行开始，在该代码所在目录执行
+cd build  
+cmake ..  
+make  
+```
+
+
 10.主程序为build/kadfiletranporter,控制台为build/console/rpcclient  
 
 testenv里是demo用的三个节点。编译成功后将生成的两个可执行文件放在三个目录中，每个目录中一份。然后启动三个程序就可以观察到节点之间互相通信。
