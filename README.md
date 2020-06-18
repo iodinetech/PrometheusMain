@@ -1,6 +1,9 @@
 # PrometheusMain
 西安电子科技大学 开源项目 “ProjectPrometheus（普罗米修斯计划）”主程序
 
+[]: ./introduction.pdf	"介绍 PPT"  
+
+
 
 | Operating system & Architecture | Status     |
 | ------------------------------- | ---------- |
