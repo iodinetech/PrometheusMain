@@ -1,5 +1,5 @@
 # PrometheusMain
-西安电子科技大学 开源项目 “ProjectPrometheus（普罗米修斯计划）”主程序
+该项目为 西安电子科技大学学生自发发起的 “ProjectPrometheus（普罗米修斯计划）” 项目主程序
 
 <a href="https://github.com/iodinetech/PrometheusMain/blob/master/introduction.pdf">简介 PPT</a><br>
 若无法查看，请改善您的网络环境。  
